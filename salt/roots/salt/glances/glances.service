@@ -1,0 +1,10 @@
+[Unit]
+Description=Glances daemon
+After=network.target
+
+[Service]
+ExecStart={{ pillar['project']['home'] }}/bin/glances -w
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target

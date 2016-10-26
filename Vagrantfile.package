@@ -1,0 +1,12 @@
+Vagrant.configure(2) do |config|
+  # Enable agent forwarding over SSH connections
+  config.ssh.forward_agent = true
+
+  # Port forwarding for Django's development server.
+  config.vm.network "forwarded_port", guest: 8000, host: 8000,
+    auto_correct: true
+
+  # Port forwarding for Glances server.
+  config.vm.network "forwarded_port", guest: 61208, host: 61208,
+    auto_correct: true
+end
