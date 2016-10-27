@@ -52,7 +52,7 @@ Extend .bashrc:
         git_config user.email "Please enter your email address to be recorded in any newly created git commits"
 
         if [ -f /vagrant/.git/config ]; then
-          grep gitflow /vagrant/.git/config
+          grep "^\[gitflow" /vagrant/.git/config >/dev/nulll
           if [ $? -ne 0 ]; then
             echo
             echo "Your git repository has not been initialized with support for the git-flow branching model."
