@@ -12,3 +12,4 @@ base:
     - glances
     - wkhtmltopdf
     - bashrc
+    - cleanup

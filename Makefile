@@ -19,6 +19,7 @@ all: clean build package upload ## Build, package and upload the re-usable box
 
 $(VAGRANT_ID_PATH):
 	vagrant up
+	cat cleanup.log
 
 build: $(VAGRANT_ID_PATH) ## Create, configure and provision the Vagrant box
 
