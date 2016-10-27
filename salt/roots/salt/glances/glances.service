@@ -1,6 +1,5 @@
 [Unit]
-Description=Glances daemon
-After=network.target
+Description=Glances
 
 [Service]
 ExecStart={{ pillar['project']['home'] }}/bin/glances -w
