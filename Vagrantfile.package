@@ -9,4 +9,9 @@ Vagrant.configure(2) do |config|
   # Port forwarding for Glances server.
   config.vm.network "forwarded_port", guest: 61208, host: 61208,
     auto_correct: true
+
+  config.vm.provider "virtualbox" do |v|
+    v.memory = 1024
+    v.cpus = 2
+  end
 end

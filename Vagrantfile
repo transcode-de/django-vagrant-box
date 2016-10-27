@@ -13,6 +13,11 @@ Vagrant.configure(2) do |config|
   config.vm.network "forwarded_port", guest: 61208, host: 61208,
     auto_correct: true
 
+  config.vm.provider "virtualbox" do |v|
+    v.memory = 1024
+    v.cpus = 2
+  end
+
   # Salt provisioning.
   config.vm.synced_folder "salt/roots/", "/srv/"
   config.vm.provision :salt do |salt|
