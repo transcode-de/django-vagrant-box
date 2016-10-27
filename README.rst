@@ -21,13 +21,7 @@ Programming languages
 .. class:: compact
 
     - `Python 3 <https://www.python.org/>`_
-
-        - `pip <https://pip.pypa.io/>`_
-
     - `Node.js <https://nodejs.org/en/>`_
-
-        - `npm <https://www.npmjs.com/>`_
-        - `Node Version Manager (nvm) <https://github.com/creationix/nvm>`_
 
 Databases
 ---------
