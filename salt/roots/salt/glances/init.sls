@@ -37,6 +37,3 @@ Start glances service:
     - enable: True
     - watch:
         - file: /etc/systemd/system/glances.service
-  cmd.run:
-    # Glances must be manually restarted, otherwise it does not fully load after installation
-    - name: systemctl restart glances.service
