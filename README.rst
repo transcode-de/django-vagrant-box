@@ -87,13 +87,14 @@ Configuration
 Installation
 ============
 
-`Download Vagrant <https://www.vagrantup.com/downloads.html>`_ for your
-operating system and architecture, then install it.
+Download `Vagrant <https://www.vagrantup.com/downloads.html>`_ and
+`VirtualBox <https://www.virtualbox.org/>`_ for your operating system and
+architecture, then install both.
 
 Usage
 =====
 
-To create a new Vagrant box, run:
+To create and boot a new Vagrant box, run:
 
 ::
 
