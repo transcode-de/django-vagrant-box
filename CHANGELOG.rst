@@ -2,6 +2,11 @@
 Changelog
 *********
 
+1.0.2
+=====
+
+- Fixed typo in gitflow regular expression in .bashrc
+
 1.0.1
 =====
 
