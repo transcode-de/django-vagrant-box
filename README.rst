@@ -79,7 +79,10 @@ Configuration
 - User and password for the PostgreSQL database are both ``django``
 - PostgreSQL database name and user are also available as environment variables ``DB_NAME`` and ``DB_USER``
 - apt is configured to use German Ubuntu mirror servers
-- An environment variable ``ENV=vagrant`` has been set, to be used in script etc.
+- An environment variable ``ENV=vagrant`` has been set, to be used in scripts etc.
+- Port 8000 on the guest will be forwarded to the same port on the host (usually used for the Django development web server)
+- Port 61208 on the guest will be forwarded to the same port on the host (used for the Glances web server)
+- Auto correction for port forwarding is enabled, so port numbers can be different - use the ``vagrant port`` command to display them
 
 Installation
 ============

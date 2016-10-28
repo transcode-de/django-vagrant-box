@@ -6,6 +6,7 @@ Changelog
 =====
 
 - Fixed typo in gitflow regular expression in .bashrc
+- Extended configuration documentation
 
 1.0.1
 =====
