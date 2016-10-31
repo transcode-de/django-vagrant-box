@@ -1,3 +1,13 @@
+.. image:: https://img.shields.io/badge/Atlas-transcode%2Fdjango-brightgreen.svg
+    :target: https://atlas.hashicorp.com/transcode/boxes/django
+    :alt: Vagrant box transcode/django
+
+.. image:: https://requires.io/github/transcode-de/django-vagrant-box/requirements.svg?branch=master
+    :target: https://requires.io/github/transcode-de/django-vagrant-box/requirements/?branch=master
+    :alt: Requirements Status
+
+----
+
 ******************
 Django Vagrant Box
 ******************
