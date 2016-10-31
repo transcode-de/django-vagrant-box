@@ -2,7 +2,7 @@
 Django Vagrant Box
 ******************
 
-.. image:: https://img.shields.io/badge/Atlas-transcode%2Fdjango-brightgreen.svg
+.. image:: https://img.shields.io/badge/atlas-transcode%2Fdjango-brightgreen.svg
     :target: https://atlas.hashicorp.com/transcode/boxes/django
     :alt: Vagrant box transcode/django
 
