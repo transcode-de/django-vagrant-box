@@ -27,7 +27,7 @@ Programming languages
 .. class:: compact
 
     - `Python <https://www.python.org/>`_ 3.5.2-2~16.04 with `pip <https://pip.pypa.io/>`_ 8.1.1-2ubuntu0.2
-    - `Node.js <https://nodejs.org/en/>`_ 6.9.1-1nodesource1~xenial1 (LTS)
+    - `Node.js <https://nodejs.org/en/>`_ 6.9.1-1nodesource1~xenial1 (LTS version, includes npm 3.10.8)
 
 Databases
 ---------
