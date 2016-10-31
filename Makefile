@@ -42,7 +42,7 @@ $(VENV):
 	$(PIP_INSTALL) --upgrade pip setuptools wheel
 
 $(AWSCLI): $(VENV)
-	$(PIP_INSTALL) awscli
+	$(PIP_INSTALL) --requirement requirements.pip
 
 upload: $(AWSCLI) ## Upload the re-usable box to a Amazon S3 bucket
 	$(AWSCLI) s3 cp $(BOX_PATH) $(S3_PATH)
