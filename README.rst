@@ -10,8 +10,8 @@ Django Vagrant Box
     :target: https://requires.io/github/transcode-de/django-vagrant-box/requirements/?branch=master
     :alt: Requirements Status
 
-----
-
+.. image:: https://img.shields.io/github/license/transcode-de/django-vagrant-box.svg
+    :alt: License
 
 A `Vagrant <https://www.vagrantup.com/>`_ box for
 `VirtualBox <https://www.virtualbox.org/>`_ to develop
