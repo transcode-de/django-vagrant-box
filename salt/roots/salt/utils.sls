@@ -1,6 +1,3 @@
-include:
-  - .python
-
 Install development tools:
   pkg.installed:
     - pkgs:
@@ -14,27 +11,3 @@ Install development tools:
       - screen: 4.3.1-2build1
       - silversearcher-ag: 0.31.0-2
       - tree: 1.7.0-3
-
-Create thefuck venv:
-  cmd.run:
-    - name: python3 -m venv {{ pillar['project']['venvs'] }}/thefuck
-    - runas: {{ pillar['project']['user'] }}
-    - unless: ls {{ pillar['project']['venvs'] }}/thefuck
-    - makedirs: True
-    - require:
-      - Install Python
-
-Install thefuck:
-  cmd.run:
-    - name: {{ pillar['project']['venvs'] }}/thefuck/bin/python -m pip install thefuck==3.11
-    - runas: {{ pillar['project']['user'] }}
-    - unless: ls {{ pillar['project']['venvs'] }}/thefuck/bin/thefuck
-    - require:
-      - Create thefuck venv
-  file.symlink:
-    - name: {{ pillar['project']['home'] }}/bin/thefuck
-    - target: {{ pillar['project']['venvs'] }}/thefuck/bin/thefuck
-    - user: {{ pillar['project']['user'] }}
-    - group: {{ pillar['project']['group'] }}
-    - makedirs: True
-    - mode: 0775

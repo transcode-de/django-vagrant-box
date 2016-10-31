@@ -7,6 +7,7 @@ base:
     - git
     - editors
     - utils
+    - thefuck
     - postgresql
     - sqlite3
     - glances
