@@ -8,6 +8,7 @@ Changelog
 - Fixed typo in gitflow regular expression in .bashrc
 - Extended configuration documentation
 - Added versions to README.rst
+- Minimized box size (again, reducing size to ~600 MB)
 
 1.0.1
 =====

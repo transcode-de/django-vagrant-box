@@ -26,6 +26,7 @@ build: $(VAGRANT_ID_PATH) ## Create, configure and provision the Vagrant box
 clean: ## Destroy the Vagrant box and delete the re-usable box
 	vagrant destroy -f
 	rm -f $(BOX_PATH)
+	rm -r cleanup.log
 
 clean-venv: ## Delete the Python virtual environment
 	rm -f $(VENV)
@@ -34,6 +35,7 @@ $(BOX_PATH):
 	vagrant package --vagrantfile Vagrantfile.package --output $(BOX_PATH)
 
 package: $(BOX_PATH) ## Package the currently running VirtualBox environment into a re-usable box
+	ls -hl $(BOX_PATH)
 
 $(VENV):
 	python3 -m venv $(VENV)
