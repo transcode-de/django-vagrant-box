@@ -15,50 +15,56 @@ Features
 This Vagrant box comes with pre-installed packages that are useful for
 everyday Django development.
 
+.. note::
+
+    All version numbers are
+    `Ubuntu package versions <http://packages.ubuntu.com/>`_, except for
+    Glances and thefuck, which are installed using pip.
+
 Programming languages
 ---------------------
 
 .. class:: compact
 
-    - `Python 3 <https://www.python.org/>`_
-    - `Node.js <https://nodejs.org/en/>`_
+    - `Python <https://www.python.org/>`_ 3.5.2-2~16.04 with `pip <https://pip.pypa.io/>`_ 8.1.1-2ubuntu0.2
+    - `Node.js <https://nodejs.org/en/>`_ 6.9.1-1nodesource1~xenial1 (LTS)
 
 Databases
 ---------
 
 .. class:: compact
 
-    - `PostgreSQL <http://www.postgresql.org/>`_ and libpq-dev
-    - `SQLite <https://www.sqlite.org/>`_
+    - `PostgreSQL <http://www.postgresql.org/>`_ 9.5+173 and libpq-dev 9.5.4-0ubuntu0.16.04
+    - `SQLite <https://www.sqlite.org/>`_ 3.11.0-1ubuntu1
 
 Development Tools
 -----------------
 
 .. class:: compact
 
-    - `ack <http://beyondgrep.com/>`_
-    - `The Silver Searcher <https://github.com/ggreer/the_silver_searcher>`_
-    - `cloc <https://github.com/AlDanial/cloc>`_
-    - `curl <http://curl.haxx.se/>`_
-    - `gettext <https://www.gnu.org/software/gettext/>`_
-    - `Git <https://git-scm.com/>`_
-    - `git-flow <https://github.com/nvie/gitflow>`_
-    - `Graphviz <http://www.graphviz.org/>`_
-    - `httpie <https://httpie.org/>`_
-    - `iftop <http://www.ex-parrot.com/~pdw/iftop/>`_
-    - `jq <https://github.com/stedolan/jq>`_
-    - `Screen <https://www.gnu.org/software/screen/>`_
-    - `thefuck <https://github.com/nvbn/thefuck>`_
-    - `tig <http://jonas.nitro.dk/tig/>`_
-    - `tree <http://mama.indstate.edu/users/ice/tree/>`_
+    - `ack <http://beyondgrep.com/>`_ 2.14-4
+    - `cloc <https://github.com/AlDanial/cloc>`_ 1.60-1.1
+    - `curl <http://curl.haxx.se/>`_ 7.47.0-1ubuntu2.1
+    - `gettext <https://www.gnu.org/software/gettext/>`_ 0.19.7-2ubuntu3
+    - `Git <https://git-scm.com/>`_ 1:2.7.4-0ubuntu1
+    - `git-flow <https://github.com/nvie/gitflow>`_ 1.9.1-1
+    - `Graphviz <http://www.graphviz.org/>`_ 2.38.0-12ubuntu2
+    - `httpie <https://httpie.org/>`_ 0.9.2-1
+    - `iftop <http://www.ex-parrot.com/~pdw/iftop/>`_ 1.0~pre4-3
+    - `jq <https://github.com/stedolan/jq>`_ 1.5+dfsg-1
+    - `Screen <https://www.gnu.org/software/screen/>`_ 4.3.1-2build1
+    - `The Silver Searcher <https://github.com/ggreer/the_silver_searcher>`_ 0.31.0-2
+    - `thefuck <https://github.com/nvbn/thefuck>`_ 3.11
+    - `tig <http://jonas.nitro.dk/tig/>`_ 2.0.2-2build1
+    - `tree <http://mama.indstate.edu/users/ice/tree/>`_ 1.7.0-3
 
 Editors
 -------
 
 .. class:: compact
 
-    - `nano <http://www.nano-editor.org/>`_
-    - `Vim <http://www.vim.org/>`_
+    - `nano <http://www.nano-editor.org/>`_ 2.5.3-2
+    - `Vim <http://www.vim.org/>`_ 2:7.4.1689-3ubuntu1.1
 
 Other
 -----
@@ -66,19 +72,30 @@ Other
 .. class:: compact
 
     - An empty "django" Python virtual environment, automatically activated after login
-    - `Glances <https://nicolargo.github.io/glances/>`_ to monitor the box itself
-    - `wkhtmltopdf <http://wkhtmltopdf.org/>`_
-    - Dependencies to build `lxml <https://github.com/lxml/lxml>`_ and `pillow <https://python-pillow.github.io/>`_ Python packages
+    - `Glances <https://nicolargo.github.io/glances/>`_ 2.7.1, to monitor the box itself
+    - `wkhtmltopdf <http://wkhtmltopdf.org/>`_ 0.12.2.4-1 with xvfb 2:1.18.4-0ubuntu0.1
+    - `lxml <https://github.com/lxml/lxml>`_ dependencies
+
+        - libxslt1-dev 1.1.28-2.1
+
+    - `pillow <https://python-pillow.github.io/>`_ dependencies
+
+        - libtiff5-dev 4.0.6-1
+        - libjpeg-dev 8c-2ubuntu8
+        - zlib1g-dev 1:1.2.8.dfsg-2ubuntu4
+        - libfreetype6-dev 2.6.1-0.1ubuntu2
+        - liblcms2-dev 2.6-3ubuntu2
+        - libwebp-dev 0.4.4-1
 
 Configuration
 =============
 
-- During the first login you will be asked for your full name and email address to be used for your git commits
+- During the first login you will be asked for your full name and email address to be used for your Git commits
 - Git has already been configured with ``push.default = simple``
 - A PostgreSQL database named "django" has already been created for you
 - User and password for the PostgreSQL database are both ``django``
 - PostgreSQL database name and user are also available as environment variables ``DB_NAME`` and ``DB_USER``
-- apt is configured to use German Ubuntu mirror servers
+- APT is configured to use German Ubuntu mirror servers
 - An environment variable ``ENV=vagrant`` has been set, to be used in scripts etc.
 - Port 8000 on the guest will be forwarded to the same port on the host (usually used for the Django development web server)
 - Port 61208 on the guest will be forwarded to the same port on the host (used for the Glances web server)
@@ -87,8 +104,8 @@ Configuration
 Installation
 ============
 
-Download `Vagrant <https://www.vagrantup.com/downloads.html>`_ and
-`VirtualBox <https://www.virtualbox.org/>`_ for your operating system and
+Download `Vagrant 1.8 <https://www.vagrantup.com/downloads.html>`_ and
+`VirtualBox 5 <https://www.virtualbox.org/>`_ for your operating system and
 architecture, then install both.
 
 Usage
@@ -106,6 +123,9 @@ Now connect to the new box:
 ::
 
     $ vagrant ssh
+
+That's it! Now change your working directory to ``/vagrant`` and start working
+on your Django project!
 
 Building and uploading a Vagrant box
 ====================================

@@ -7,6 +7,7 @@ Changelog
 
 - Fixed typo in gitflow regular expression in .bashrc
 - Extended configuration documentation
+- Added versions to README.rst
 
 1.0.1
 =====
