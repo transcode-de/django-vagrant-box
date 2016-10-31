@@ -1,0 +1,4 @@
+version: 1
+requirements:
+  - salt/roots/salt/glances/requirements.pip
+  - salt/roots/salt/thefuck/requirements.pip
