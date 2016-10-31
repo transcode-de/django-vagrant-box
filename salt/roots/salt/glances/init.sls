@@ -10,9 +10,17 @@ Create glances venv:
     - require:
       - Install Python
 
+Create glances requirements file:
+  file.managed:
+    - name: /tmp/glances.pip
+    - user: root
+    - group: root
+    - mode: 0755
+    - source: salt://glances/requirements.pip
+
 Install glances:
   cmd.run:
-    - name: {{ pillar['project']['venvs'] }}/glances/bin/python -m pip install glances[web]==2.7.1
+    - name: {{ pillar['project']['venvs'] }}/glances/bin/python -m pip install --requirement /tmp/glances.pip
     - runas: {{ pillar['project']['user'] }}
     - unless: ls {{ pillar['project']['venvs'] }}/glances/bin/glances
     - require:
@@ -24,6 +32,10 @@ Install glances:
     - group: {{ pillar['project']['group'] }}
     - makedirs: True
     - mode: 0775
+
+Remove glances requirements file:
+  file.absent:
+    - name: /tmp/glances.pip
 
 Start glances service:
   file.managed:
