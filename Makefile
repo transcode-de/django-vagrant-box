@@ -1,6 +1,7 @@
-BOX_VERSION ?= $(shell cat VERSION)
+BOX_DIR ?= boxes
 BOX_PREFIX ?= django
-BOX_PATH := boxes/$(BOX_PREFIX)-$(BOX_VERSION).box
+BOX_VERSION ?= $(shell cat VERSION)
+BOX_PATH := $(BOX_DIR)/$(BOX_PREFIX)-$(BOX_VERSION).box
 S3_PREFIX ?= s3://transcode-vagrantcloud/virtualbox
 S3_PATH := $(S3_PREFIX)/$(BOX_PREFIX)-$(BOX_VERSION).box
 VAGRANT_ID_PATH := .vagrant/machines/default/virtualbox/id
@@ -32,6 +33,7 @@ clean-venv: ## Delete the Python virtual environment
 	rm -rf $(VENV)
 
 $(BOX_PATH):
+	mkdir -p $(BOX_DIR)
 	vagrant package --vagrantfile Vagrantfile.package --output $(BOX_PATH)
 
 package: $(BOX_PATH) ## Package the currently running VirtualBox environment into a re-usable box
