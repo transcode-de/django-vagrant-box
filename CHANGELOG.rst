@@ -9,6 +9,8 @@ Changelog
 - Extended configuration documentation
 - Added versions to README.rst
 - Minimized box size (again, reducing size to ~600 MB)
+- Moved all Python requirements to separate requirement files
+- Python requirements are watched by requires.io
 
 1.0.1
 =====
