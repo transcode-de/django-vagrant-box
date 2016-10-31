@@ -3,7 +3,7 @@ Clean up to free some space:
     - name: /root/cleanup.sh
     - user: root
     - group: root
-    - mode: 700
+    - mode: 0700
     - source: salt://cleanup.sh
   cmd.run:
     - name: /root/cleanup.sh > /vagrant/cleanup.log

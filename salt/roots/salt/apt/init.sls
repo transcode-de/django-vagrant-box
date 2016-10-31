@@ -3,7 +3,7 @@ Replace apt sources.list:
     - name: /etc/apt/sources.list
     - user: root
     - group: root
-    - mode: 644
+    - mode: 0644
     - source: salt://apt/sources.list
   cmd.run:
     - name: apt-get update

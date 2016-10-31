@@ -11,7 +11,7 @@ Install PostgreSQL:
     - name: /etc/postgresql/9.5/main/pg_hba.conf
     - user: postgres
     - group: postgres
-    - mode: 644
+    - mode: 0644
     - source: salt://postgresql/pg_hba.conf
     - template: jinja
 
