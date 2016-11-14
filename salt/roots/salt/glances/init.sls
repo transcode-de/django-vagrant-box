@@ -8,7 +8,7 @@ Create glances venv:
     - unless: ls {{ pillar['project']['venvs'] }}/glances
     - makedirs: True
     - require:
-      - Install Python
+      - Install python
 
 Create glances requirements file:
   file.managed:

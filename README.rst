@@ -27,7 +27,8 @@ everyday Django development.
 
     All version numbers are
     `Ubuntu package versions <http://packages.ubuntu.com/>`_, except for
-    Glances and thefuck, which are installed using pip.
+    Glances and thefuck (installed using pip) and bash-git-prompt (installed
+    using Git).
 
 Programming languages
 ---------------------
@@ -56,6 +57,7 @@ Development Tools
     - `gettext <https://www.gnu.org/software/gettext/>`_ 0.19.7-2ubuntu3
     - `Git <https://git-scm.com/>`_ 1:2.7.4-0ubuntu1
     - `git-flow <https://github.com/nvie/gitflow>`_ 1.9.1-1
+    - `bash-git-prompt <https://github.com/magicmonty/bash-git-prompt>`_ 2.6.1
     - `Graphviz <http://www.graphviz.org/>`_ 2.38.0-12ubuntu2
     - `httpie <https://httpie.org/>`_ 0.9.2-1
     - `iftop <http://www.ex-parrot.com/~pdw/iftop/>`_ 1.0~pre4-3

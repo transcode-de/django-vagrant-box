@@ -7,6 +7,16 @@ Changelog
 Unreleased
 ==========
 
+Added
+-----
+
+- Added bash-git-prompt
+
+Changed
+-------
+
+- Moved all application specific .bashrc contents to their respective states
+
 Fixed
 -----
 

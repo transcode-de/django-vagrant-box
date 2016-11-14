@@ -8,7 +8,7 @@ Create thefuck venv:
     - unless: ls {{ pillar['project']['venvs'] }}/thefuck
     - makedirs: True
     - require:
-      - Install Python
+      - Install python
 
 Create thefuck requirements file:
   file.managed:
@@ -36,3 +36,15 @@ Install thefuck:
 Remove thefuck requirements file:
   file.absent:
     - name: /tmp/thefuck.pip
+
+Extend .bashrc for thefuck:
+  file.blockreplace:
+    - name: {{ pillar['project']['home'] }}/.bashrc
+    - marker_start: "# START managed thefuck configuration -DO-NOT-EDIT-"
+    - marker_end: "# END managed thefuck configuration"
+    - content: |
+        if hash thefuck 2>/dev/null; then
+            eval $(thefuck --alias)
+        fi
+    - template: jinja
+    - append_if_not_found: True
