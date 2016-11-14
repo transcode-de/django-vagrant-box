@@ -25,6 +25,7 @@ Fixed
 
 - Fixed git.config_set states, which were using a wrong arguments
 - Fixed tig configuration, which was incompatible with 2.0.2
+- Use full path to thefuck binary in .bashrc
 
 1.0.2 2016-10-31
 ================

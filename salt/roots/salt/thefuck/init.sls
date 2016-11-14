@@ -43,8 +43,8 @@ Extend .bashrc for thefuck:
     - marker_start: "# START managed thefuck configuration -DO-NOT-EDIT-"
     - marker_end: "# END managed thefuck configuration"
     - content: |
-        if hash thefuck 2>/dev/null; then
-            eval $(thefuck --alias)
+        if hash {{ pillar['project']['home'] }}/bin/thefuck 2>/dev/null; then
+            eval $({{ pillar['project']['home'] }}/bin/thefuck --alias)
         fi
     - template: jinja
     - append_if_not_found: True
