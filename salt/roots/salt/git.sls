@@ -28,8 +28,8 @@ Configure git glog alias:
 
 Configure tig main-view:
   git.config_set:
-    - value: date:default id:yes author:abbreviated commit-title:graph=v2,refs=yes
     - name: tig.main-view
+    - value: date:default id:yes author:abbreviated commit-title:graph=yes,refs=yes
     - user: {{ pillar['project']['user'] }}
     - global: True
 

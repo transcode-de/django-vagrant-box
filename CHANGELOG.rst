@@ -11,6 +11,7 @@ Fixed
 -----
 
 - Fixed git.config_set states, which were using a wrong arguments
+- Fixed tig configuration, which was incompatible with 2.0.2
 
 1.0.2 2016-10-31
 ================
