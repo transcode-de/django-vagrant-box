@@ -17,6 +17,7 @@ Changed
 -------
 
 - Moved all application specific .bashrc contents to their respective states
+- Upgraded libpq-dev to 9.5.5-0ubuntu0.16.04
 
 Fixed
 -----

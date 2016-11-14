@@ -9,7 +9,7 @@ Install general dependencies:
 Install PostgreSQL dependencies:
   pkg.installed:
     - pkgs:
-      - libpq-dev: 9.5.4-0ubuntu0.16.04
+      - libpq-dev: 9.5.5-0ubuntu0.16.04
 
 Install lxml dependencies:
   pkg.installed:
