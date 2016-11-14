@@ -7,6 +7,11 @@ Changelog
 Unreleased
 ==========
 
+Fixed
+-----
+
+- Fixed git.config_set states, which were using a wrong arguments
+
 1.0.2 2016-10-31
 ================
 

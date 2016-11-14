@@ -7,35 +7,35 @@ Install git and extras:
 
 Configure git push default setting:
   git.config_set:
-    - key: push.default
+    - name: push.default
     - value: simple
     - user: {{ pillar['project']['user'] }}
     - global: True
 
 Configure git ff alias:
   git.config_set:
-    - key: alias.ff
+    - name: alias.ff
     - value: pull --ff-only
     - user: {{ pillar['project']['user'] }}
     - global: True
 
 Configure git glog alias:
   git.config_set:
-    - key: alias.glog
+    - name: alias.glog
     - value: log --graph --decorate
     - user: {{ pillar['project']['user'] }}
     - global: True
 
 Configure tig main-view:
   git.config_set:
-    - key: tig.main-view
     - value: date:default id:yes author:abbreviated commit-title:graph=v2,refs=yes
+    - name: tig.main-view
     - user: {{ pillar['project']['user'] }}
     - global: True
 
 Configure tig line-graphics:
   git.config_set:
-    - key: tig.line-graphics
+    - name: tig.line-graphics
     - value: utf-8
     - user: {{ pillar['project']['user'] }}
     - global: True
