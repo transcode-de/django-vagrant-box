@@ -124,7 +124,7 @@ Installation
 ============
 
 Download `Vagrant 1.8 <https://www.vagrantup.com/downloads.html>`_ and
-`VirtualBox 5 <https://www.virtualbox.org/>`_ for your operating system and
+`VirtualBox 5.0 <https://www.virtualbox.org/>`_ for your operating system and
 architecture, then install both.
 
 Usage

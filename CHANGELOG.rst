@@ -12,6 +12,7 @@ Added
 
 - Added bash-git-prompt
 - Added yarn
+- Specified VirtualBox minor version to install
 
 Changed
 -------
