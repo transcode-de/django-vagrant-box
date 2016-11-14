@@ -11,6 +11,7 @@ Added
 -----
 
 - Added bash-git-prompt
+- Added yarn
 
 Changed
 -------

@@ -4,6 +4,7 @@ base:
     - dependencies
     - python
     - nodejs
+    - yarn
     - git
     - editors
     - utils

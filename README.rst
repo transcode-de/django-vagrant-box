@@ -30,13 +30,22 @@ everyday Django development.
     Glances and thefuck (installed using pip) and bash-git-prompt (installed
     using Git).
 
-Programming languages
+Programming Languages
 ---------------------
 
 .. class:: compact
 
-    - `Python <https://www.python.org/>`_ 3.5.2-2~16.04 with `pip <https://pip.pypa.io/>`_ 8.1.1-2ubuntu0.2
-    - `Node.js <https://nodejs.org/en/>`_ 6.9.1-1nodesource1~xenial1 (LTS version, includes npm 3.10.8)
+    - `Python <https://www.python.org/>`_ 3.5.2-2~16.04
+    - `Node.js <https://nodejs.org/en/>`_ 6.9.1-1nodesource1~xenial1 (LTS version)
+
+Package Managers
+----------------
+
+.. class:: compact
+
+    - `npm <https://www.npmjs.com/>`_ 3.10.8
+    - `pip <https://pip.pypa.io/>`_ 8.1.1-2ubuntu0.2
+    - `yarn <https://yarnpkg.com/>`_ 0.16.1-1
 
 Databases
 ---------
