@@ -12,8 +12,6 @@ Create django venv:
     - runas: {{ pillar['project']['user'] }}
     - unless: ls {{ pillar['project']['venvs'] }}/django
     - makedirs: True
-    - require:
-      - Install python
 
 Extend .bashrc for python:
   file.blockreplace:
