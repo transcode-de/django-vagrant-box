@@ -7,7 +7,10 @@ Changelog
 Unreleased
 ==========
 
+Changed
+-------
 
+- Upgraded thefuck to 3.14
 
 1.1.0 2016-11-15
 ================

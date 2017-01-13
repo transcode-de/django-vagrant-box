@@ -73,7 +73,7 @@ Development Tools
     - `jq <https://github.com/stedolan/jq>`_ 1.5+dfsg-1
     - `Screen <https://www.gnu.org/software/screen/>`_ 4.3.1-2build1
     - `The Silver Searcher <https://github.com/ggreer/the_silver_searcher>`_ 0.31.0-2
-    - `thefuck <https://github.com/nvbn/thefuck>`_ 3.11
+    - `thefuck <https://github.com/nvbn/thefuck>`_ 3.14
     - `tig <http://jonas.nitro.dk/tig/>`_ 2.0.2-2build1
     - `tree <http://mama.indstate.edu/users/ice/tree/>`_ 1.7.0-3
 
