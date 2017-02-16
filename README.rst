@@ -119,6 +119,7 @@ Configuration
 - Port 8000 on the guest will be forwarded to the same port on the host (usually used for the Django development web server)
 - Port 61208 on the guest will be forwarded to the same port on the host (used for the Glances web server)
 - Auto correction for port forwarding is enabled, so port numbers can be different - use the ``vagrant port`` command to display them
+- Timezone is set to Europe/Berlin
 
 Installation
 ============

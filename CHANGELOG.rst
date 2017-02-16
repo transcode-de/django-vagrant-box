@@ -7,6 +7,11 @@ Changelog
 Unreleased
 ==========
 
+Added
+-----
+
+- Set timezone to Europe/Berlin
+
 Changed
 -------
 

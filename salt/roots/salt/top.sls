@@ -14,4 +14,5 @@ base:
     - glances
     - wkhtmltopdf
     - bashrc
+    - timezone
     - cleanup
