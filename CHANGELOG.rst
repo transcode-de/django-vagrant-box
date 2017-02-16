@@ -10,6 +10,7 @@ Unreleased
 Changed
 -------
 
+- Upgraded glances to 2.8.2
 - Upgraded thefuck to 3.14
 
 1.1.0 2016-11-15
