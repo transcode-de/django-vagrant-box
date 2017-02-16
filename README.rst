@@ -65,7 +65,7 @@ Development Tools
     - `curl <http://curl.haxx.se/>`_ 7.47.0-1ubuntu2.1
     - `gettext <https://www.gnu.org/software/gettext/>`_ 0.19.7-2ubuntu3
     - `Git <https://git-scm.com/>`_ 1:2.7.4-0ubuntu1
-    - `git-flow <https://github.com/nvie/gitflow>`_ 1.9.1-1
+    - `git-flow (AVH Edition) <https://github.com/petervanderdoes/gitflow-avh>`_ 1.9.1-1
     - `bash-git-prompt <https://github.com/magicmonty/bash-git-prompt>`_ 2.6.1
     - `Graphviz <http://www.graphviz.org/>`_ 2.38.0-12ubuntu2
     - `httpie <https://httpie.org/>`_ 0.9.2-1
