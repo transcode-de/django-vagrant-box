@@ -10,6 +10,7 @@ Unreleased
 Added
 -----
 
+- Added timedatectl status to .bashrc
 - Set timezone to Europe/Berlin
 
 Changed
