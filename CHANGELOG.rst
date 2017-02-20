@@ -18,6 +18,7 @@ Added
 Changed
 -------
 
+- Upgraded ranger to 1.9.0b5
 - Updated copyright for 2017
 - Upgraded yarn to 0.20.3
 - Use less strict versions for Ubuntu packages (fixes issue #10)
