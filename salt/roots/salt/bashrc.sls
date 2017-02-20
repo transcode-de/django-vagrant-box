@@ -3,7 +3,7 @@ Create bin directory in home directory:
     - name: {{ pillar['project']['home'] }}/bin
     - user: {{ pillar['project']['user'] }}
     - group: {{ pillar['project']['group'] }}
-    - mode: 0775
+    - mode: 0755
 
 Extend .bashrc:
   file.blockreplace:

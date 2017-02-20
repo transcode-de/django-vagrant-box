@@ -15,7 +15,7 @@ Create glances requirements file:
     - name: /tmp/glances.pip
     - user: root
     - group: root
-    - mode: 0755
+    - mode: 0644
     - source: salt://glances/requirements.pip
 
 Install glances:
@@ -31,7 +31,7 @@ Install glances:
     - user: {{ pillar['project']['user'] }}
     - group: {{ pillar['project']['group'] }}
     - makedirs: True
-    - mode: 0775
+    - mode: 0755
 
 Remove glances requirements file:
   file.absent:
