@@ -16,6 +16,7 @@ Added
 Changed
 -------
 
+- Updated copyright for 2017
 - Upgraded yarn to 0.20.3
 - Use less strict versions for Ubuntu packages (fixes issue #10)
 - Changed git-flow URL (we are using "git-flow (AVH Edition)")

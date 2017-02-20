@@ -165,4 +165,4 @@ License
 
 Distributed under the BSD 3-Clause license.
 
-Copyright (c) 2016, Markus Zapke-Gründemann
+Copyright (c) 2016-2017, Markus Zapke-Gründemann
