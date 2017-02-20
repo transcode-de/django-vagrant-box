@@ -3,3 +3,4 @@ requirements:
   - requirements.pip
   - salt/roots/salt/glances/requirements.pip
   - salt/roots/salt/thefuck/requirements.pip
+  - salt/roots/salt/ranger/requirements.pip

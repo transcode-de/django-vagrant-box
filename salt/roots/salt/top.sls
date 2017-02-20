@@ -9,9 +9,12 @@ base:
     - editors
     - utils
     - thefuck
+    - ranger
     - postgresql
+    - pgadmin
     - sqlite3
     - glances
     - wkhtmltopdf
     - bashrc
+    - timezone
     - cleanup

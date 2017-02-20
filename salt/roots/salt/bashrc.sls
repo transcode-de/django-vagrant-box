@@ -3,7 +3,7 @@ Create bin directory in home directory:
     - name: {{ pillar['project']['home'] }}/bin
     - user: {{ pillar['project']['user'] }}
     - group: {{ pillar['project']['group'] }}
-    - mode: 0775
+    - mode: 0755
 
 Extend .bashrc:
   file.blockreplace:
@@ -19,5 +19,7 @@ Extend .bashrc:
         export LANGUAGE=en_US.UTF-8
         export LC_ALL=en_US.UTF-8
         export PATH="${HOME}/bin:${PATH}"
+        echo
+        timedatectl status
     - template: jinja
     - append_if_not_found: True

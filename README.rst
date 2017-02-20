@@ -23,67 +23,70 @@ Features
 This Vagrant box comes with pre-installed packages that are useful for
 everyday Django development.
 
-.. note::
-
-    All version numbers are
-    `Ubuntu package versions <http://packages.ubuntu.com/>`_, except for
-    Glances and thefuck (installed using pip) and bash-git-prompt (installed
-    using Git).
-
 Programming Languages
 ---------------------
 
 .. class:: compact
 
-    - `Python <https://www.python.org/>`_ 3.5.2-2~16.04
-    - `Node.js <https://nodejs.org/en/>`_ 6.9.1-1nodesource1~xenial1 (LTS version)
+    - `Python <https://www.python.org/>`_ 3.5.2
+    - `Node.js <https://nodejs.org/en/>`_ 6.9.x (LTS version)
 
 Package Managers
 ----------------
 
 .. class:: compact
 
-    - `npm <https://www.npmjs.com/>`_ 3.10.8
-    - `pip <https://pip.pypa.io/>`_ 8.1.1-2ubuntu0.2
-    - `yarn <https://yarnpkg.com/>`_ 0.16.1-1
+    - `npm <https://www.npmjs.com/>`_ 3.10.x
+    - `pip <https://pip.pypa.io/>`_ 8.1.1
+    - `yarn <https://yarnpkg.com/>`_ 0.20.3
 
 Databases
 ---------
 
 .. class:: compact
 
-    - `PostgreSQL <http://www.postgresql.org/>`_ 9.5+173 and libpq-dev 9.5.5-0ubuntu0.16.04
-    - `SQLite <https://www.sqlite.org/>`_ 3.11.0-1ubuntu1
+    - `PostgreSQL <http://www.postgresql.org/>`_ 9.5 and libpq-dev 9.5.5
+    - `SQLite <https://www.sqlite.org/>`_ 3.11.0
 
 Development Tools
 -----------------
 
 .. class:: compact
 
-    - `ack <http://beyondgrep.com/>`_ 2.14-4
-    - `cloc <https://github.com/AlDanial/cloc>`_ 1.60-1.1
-    - `curl <http://curl.haxx.se/>`_ 7.47.0-1ubuntu2.1
-    - `gettext <https://www.gnu.org/software/gettext/>`_ 0.19.7-2ubuntu3
-    - `Git <https://git-scm.com/>`_ 1:2.7.4-0ubuntu1
-    - `git-flow <https://github.com/nvie/gitflow>`_ 1.9.1-1
+    - `ack <http://beyondgrep.com/>`_ 2.14
+    - `cloc <https://github.com/AlDanial/cloc>`_ 1.60
+    - `curl <http://curl.haxx.se/>`_ 7.47.0
+    - `gettext <https://www.gnu.org/software/gettext/>`_ 0.19.7
+    - `Git <https://git-scm.com/>`_ 2.7.4
+    - `git-flow (AVH Edition) <https://github.com/petervanderdoes/gitflow-avh>`_ 1.9.1
     - `bash-git-prompt <https://github.com/magicmonty/bash-git-prompt>`_ 2.6.1
-    - `Graphviz <http://www.graphviz.org/>`_ 2.38.0-12ubuntu2
-    - `httpie <https://httpie.org/>`_ 0.9.2-1
-    - `iftop <http://www.ex-parrot.com/~pdw/iftop/>`_ 1.0~pre4-3
-    - `jq <https://github.com/stedolan/jq>`_ 1.5+dfsg-1
-    - `Screen <https://www.gnu.org/software/screen/>`_ 4.3.1-2build1
-    - `The Silver Searcher <https://github.com/ggreer/the_silver_searcher>`_ 0.31.0-2
+    - `Graphviz <http://www.graphviz.org/>`_ 2.38.0
+    - `httpie <https://httpie.org/>`_ 0.9.2
+    - `iftop <http://www.ex-parrot.com/~pdw/iftop/>`_ 1.0pre4
+    - `jq <https://github.com/stedolan/jq>`_ 1.5
+    - `pgAdmin4 <https://www.pgadmin.org/>`_ 1.2
+    - `ranger <http://ranger.nongnu.org/>`_ 1.9.0b4
+
+        - `atool <http://www.nongnu.org/atool/>`_ 0.39.0
+        - `caca-utils <http://caca.zoy.org/wiki/libcaca>`_ 0.99.beta19
+        - `highlight <http://www.andre-simon.de/doku/highlight/en/highlight.php>`_ 3.18
+        - `mediainfo <https://mediaarea.net/en/MediaInfo>`_ 0.7.82
+        - `poppler-utils <https://poppler.freedesktop.org/>`_ 0.41.0
+        - `w3m <http://w3m.sourceforge.net/>`_ 0.5.3
+
+    - `Screen <https://www.gnu.org/software/screen/>`_ 4.3.1
+    - `The Silver Searcher <https://github.com/ggreer/the_silver_searcher>`_ 0.31.0
     - `thefuck <https://github.com/nvbn/thefuck>`_ 3.14
-    - `tig <http://jonas.nitro.dk/tig/>`_ 2.0.2-2build1
-    - `tree <http://mama.indstate.edu/users/ice/tree/>`_ 1.7.0-3
+    - `tig <http://jonas.nitro.dk/tig/>`_ 2.0.2
+    - `tree <http://mama.indstate.edu/users/ice/tree/>`_ 1.7.0
 
 Editors
 -------
 
 .. class:: compact
 
-    - `nano <http://www.nano-editor.org/>`_ 2.5.3-2
-    - `Vim <http://www.vim.org/>`_ 2:7.4.1689-3ubuntu1.1
+    - `nano <http://www.nano-editor.org/>`_ 2.5.3
+    - `Vim <http://www.vim.org/>`_ 7.4.1689
 
 Other
 -----
@@ -92,19 +95,19 @@ Other
 
     - An empty "django" Python virtual environment, automatically activated after login
     - `Glances <https://nicolargo.github.io/glances/>`_ 2.7.1, to monitor the box itself
-    - `wkhtmltopdf <http://wkhtmltopdf.org/>`_ 0.12.2.4-1 with xvfb 2:1.18.4-0ubuntu0.1
+    - `wkhtmltopdf <http://wkhtmltopdf.org/>`_ 0.12.2.4 with xvfb 1.18.4
     - `lxml <https://github.com/lxml/lxml>`_ dependencies
 
-        - libxslt1-dev 1.1.28-2.1
+        - libxslt1-dev 1.1.28
 
     - `pillow <https://python-pillow.github.io/>`_ dependencies
 
-        - libtiff5-dev 4.0.6-1
-        - libjpeg-dev 8c-2ubuntu8
-        - zlib1g-dev 1:1.2.8.dfsg-2ubuntu4
-        - libfreetype6-dev 2.6.1-0.1ubuntu2
-        - liblcms2-dev 2.6-3ubuntu2
-        - libwebp-dev 0.4.4-1
+        - libtiff5-dev 4.0.6
+        - libjpeg-dev 8c
+        - zlib1g-dev 1.2.8
+        - libfreetype6-dev 2.6.1
+        - liblcms2-dev 2.6
+        - libwebp-dev 0.4.4
 
 Configuration
 =============
@@ -116,9 +119,11 @@ Configuration
 - PostgreSQL database name and user are also available as environment variables ``DB_NAME`` and ``DB_USER``
 - APT is configured to use German Ubuntu mirror servers
 - An environment variable ``ENV=vagrant`` has been set, to be used in scripts etc.
-- Port 8000 on the guest will be forwarded to the same port on the host (usually used for the Django development web server)
+- Port 8000 on the guest will be forwarded to the same port on the host (used for the Django development web server)
+- Port 5050 on the guest will be forwarded to the same port on the host (used for pgAdmin4)
 - Port 61208 on the guest will be forwarded to the same port on the host (used for the Glances web server)
 - Auto correction for port forwarding is enabled, so port numbers can be different - use the ``vagrant port`` command to display them
+- Timezone is set to Europe/Berlin
 
 Installation
 ============
@@ -171,4 +176,4 @@ License
 
 Distributed under the BSD 3-Clause license.
 
-Copyright (c) 2016, Markus Zapke-Gründemann
+Copyright (c) 2016-2017, Markus Zapke-Gründemann

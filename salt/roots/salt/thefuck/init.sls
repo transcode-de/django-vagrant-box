@@ -15,7 +15,7 @@ Create thefuck requirements file:
     - name: /tmp/thefuck.pip
     - user: root
     - group: root
-    - mode: 0755
+    - mode: 0644
     - source: salt://thefuck/requirements.pip
 
 Install thefuck:
@@ -31,7 +31,7 @@ Install thefuck:
     - user: {{ pillar['project']['user'] }}
     - group: {{ pillar['project']['group'] }}
     - makedirs: True
-    - mode: 0775
+    - mode: 0755
 
 Remove thefuck requirements file:
   file.absent:

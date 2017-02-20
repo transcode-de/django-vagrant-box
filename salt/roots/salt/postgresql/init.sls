@@ -1,7 +1,7 @@
 Install PostgreSQL:
   pkg.installed:
     - name: postgresql
-    - version: 9.5+173
+    - version: 9.5*
   service.running:
     - name: postgresql
     - enable: True

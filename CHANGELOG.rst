@@ -7,10 +7,28 @@ Changelog
 Unreleased
 ==========
 
+Added
+-----
+
+- Added pgAdmin4
+- Added ranger console file manager (fixes issue #11)
+- Added timedatectl status to .bashrc
+- Set timezone to Europe/Berlin
+
 Changed
 -------
 
+- Updated copyright for 2017
+- Upgraded yarn to 0.20.3
+- Use less strict versions for Ubuntu packages (fixes issue #10)
+- Changed git-flow URL (we are using "git-flow (AVH Edition)")
+- Upgraded glances to 2.8.2
 - Upgraded thefuck to 3.14
+
+Fixed
+-----
+
+- Configured VBoxService for better time synchronization
 
 1.1.0 2016-11-15
 ================
