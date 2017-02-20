@@ -11,6 +11,7 @@ base:
     - thefuck
     - ranger
     - postgresql
+    - pgadmin
     - sqlite3
     - glances
     - wkhtmltopdf

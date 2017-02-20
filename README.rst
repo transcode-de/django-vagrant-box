@@ -64,6 +64,7 @@ Development Tools
     - `httpie <https://httpie.org/>`_ 0.9.2
     - `iftop <http://www.ex-parrot.com/~pdw/iftop/>`_ 1.0pre4
     - `jq <https://github.com/stedolan/jq>`_ 1.5
+    - `pgAdmin4 <https://www.pgadmin.org/>`_ 1.2
     - `ranger <http://ranger.nongnu.org/>`_ 1.9.0b4
 
         - `atool <http://www.nongnu.org/atool/>`_ 0.39.0
@@ -118,7 +119,8 @@ Configuration
 - PostgreSQL database name and user are also available as environment variables ``DB_NAME`` and ``DB_USER``
 - APT is configured to use German Ubuntu mirror servers
 - An environment variable ``ENV=vagrant`` has been set, to be used in scripts etc.
-- Port 8000 on the guest will be forwarded to the same port on the host (usually used for the Django development web server)
+- Port 8000 on the guest will be forwarded to the same port on the host (used for the Django development web server)
+- Port 5050 on the guest will be forwarded to the same port on the host (used for pgAdmin4)
 - Port 61208 on the guest will be forwarded to the same port on the host (used for the Glances web server)
 - Auto correction for port forwarding is enabled, so port numbers can be different - use the ``vagrant port`` command to display them
 - Timezone is set to Europe/Berlin

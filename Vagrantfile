@@ -13,6 +13,10 @@ Vagrant.configure(2) do |config|
   config.vm.network "forwarded_port", guest: 61208, host: 61208,
     auto_correct: true
 
+  # Port forwarding for pgAdmin4 server.
+  config.vm.network "forwarded_port", guest: 5050, host: 5050,
+    auto_correct: true
+
   config.vm.provider "virtualbox" do |v|
     v.memory = 1024
     v.cpus = 2

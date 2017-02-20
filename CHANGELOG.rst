@@ -10,6 +10,7 @@ Unreleased
 Added
 -----
 
+- Added pgAdmin4
 - Added ranger console file manager (fixes issue #11)
 - Added timedatectl status to .bashrc
 - Set timezone to Europe/Berlin
