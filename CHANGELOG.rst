@@ -16,6 +16,7 @@ Added
 Changed
 -------
 
+- Use less strict versions for Ubuntu packages (fixes issue #10)
 - Changed git-flow URL (we are using "git-flow (AVH Edition)")
 - Upgraded glances to 2.8.2
 - Upgraded thefuck to 3.14

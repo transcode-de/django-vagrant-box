@@ -8,4 +8,4 @@ Install Node.js and npm:
     - unless: ls /etc/apt/sources.list.d/nodesource.list
   pkg.installed:
     - pkgs:
-      - nodejs: 6.9.1-1nodesource1~xenial1
+      - nodejs: 6.9*
