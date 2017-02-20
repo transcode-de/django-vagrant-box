@@ -9,6 +9,7 @@ base:
     - editors
     - utils
     - thefuck
+    - ranger
     - postgresql
     - sqlite3
     - glances

@@ -64,6 +64,15 @@ Development Tools
     - `httpie <https://httpie.org/>`_ 0.9.2
     - `iftop <http://www.ex-parrot.com/~pdw/iftop/>`_ 1.0pre4
     - `jq <https://github.com/stedolan/jq>`_ 1.5
+    - `ranger <http://ranger.nongnu.org/>`_ 1.9.0b4
+
+        - `atool <http://www.nongnu.org/atool/>`_ 0.39.0
+        - `caca-utils <http://caca.zoy.org/wiki/libcaca>`_ 0.99.beta19
+        - `highlight <http://www.andre-simon.de/doku/highlight/en/highlight.php>`_ 3.18
+        - `mediainfo <https://mediaarea.net/en/MediaInfo>`_ 0.7.82
+        - `poppler-utils <https://poppler.freedesktop.org/>`_ 0.41.0
+        - `w3m <http://w3m.sourceforge.net/>`_ 0.5.3
+
     - `Screen <https://www.gnu.org/software/screen/>`_ 4.3.1
     - `The Silver Searcher <https://github.com/ggreer/the_silver_searcher>`_ 0.31.0
     - `thefuck <https://github.com/nvbn/thefuck>`_ 3.14
