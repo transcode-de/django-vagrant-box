@@ -6,9 +6,9 @@ Django Vagrant Box
     :target: https://atlas.hashicorp.com/transcode/boxes/django
     :alt: Vagrant box transcode/django
 
-.. image:: https://requires.io/github/transcode-de/django-vagrant-box/requirements.svg?branch=master
-    :target: https://requires.io/github/transcode-de/django-vagrant-box/requirements/?branch=master
-    :alt: Requirements Status
+.. image:: https://pyup.io/repos/github/transcode-de/django-vagrant-box/shield.svg
+    :target: https://pyup.io/repos/github/transcode-de/django-vagrant-box/
+    :alt: Updates
 
 A `Vagrant <https://www.vagrantup.com/>`_ box for
 `VirtualBox <https://www.virtualbox.org/>`_ to develop
