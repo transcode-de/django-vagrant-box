@@ -23,7 +23,7 @@ Extend .bashrc:
         function recreate () {
             VENV_DIR=$VIRTUAL_ENV
             deactivate
-            /usr/bin/python3 -m venv --clear $VENV_DIR
+            /usr/bin/env python3 -m venv --clear $VENV_DIR
             source $VENV_DIR/bin/activate
         }
         echo
