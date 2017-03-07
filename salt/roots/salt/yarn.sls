@@ -1,20 +1,13 @@
 include:
   - nodejs
 
-Add yarn key:
-  cmd.run:
-    - name: curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
-
-Add yarn sources list:
-  file.managed:
-    - name: /etc/apt/sources.list.d/yarn.list
-    - user: root
-    - group: root
-    - mode: 0644
-    - contents: |
-        deb http://dl.yarnpkg.com/debian/ stable main
-  cmd.run:
-    - name: apt-get update
+Add yarn repository:
+  pkgrepo.managed:
+    - name: deb http://dl.yarnpkg.com/debian/ stable main
+    - file: /etc/apt/sources.list.d/yarn.list
+    - key_url: https://dl.yarnpkg.com/debian/pubkey.gpg
+    - require_in:
+      - Install yarn
 
 Install yarn:
   pkg.installed:
