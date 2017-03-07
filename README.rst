@@ -61,6 +61,7 @@ Development Tools
     - `git-flow (AVH Edition) <https://github.com/petervanderdoes/gitflow-avh>`_ 1.9.1
     - `bash-git-prompt <https://github.com/magicmonty/bash-git-prompt>`_ 2.6.1
     - `Graphviz <http://www.graphviz.org/>`_ 2.38.0
+    - `heroku CLI <https://devcenter.heroku.com/articles/heroku-cli>`_ 5.6.29
     - `httpie <https://httpie.org/>`_ 0.9.2
     - `iftop <http://www.ex-parrot.com/~pdw/iftop/>`_ 1.0pre4
     - `jq <https://github.com/stedolan/jq>`_ 1.5

@@ -10,6 +10,7 @@ base:
     - utils
     - thefuck
     - ranger
+    - heroku
     - postgresql
     - pgadmin
     - sqlite3

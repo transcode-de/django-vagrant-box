@@ -10,21 +10,22 @@ Unreleased
 Added
 -----
 
+- Added heroku CLI (fixes #7)
 - Added recreate command to recreate the current virtual Python environment
 - Added pgAdmin4
-- Added ranger console file manager (fixes issue #11)
+- Added ranger console file manager (fixes #11)
 - Added timedatectl status to .bashrc
 - Set timezone to Europe/Berlin
 
 Changed
 -------
 
-- Upgraded to Vagrant 1.9 (fixes issue #25)
+- Upgraded to Vagrant 1.9 (fixes #25)
 - Switched to pyup.io for Python requirements upgrades
 - Upgraded ranger to 1.9.0b5
 - Updated copyright for 2017
 - Upgraded yarn to 0.20.3
-- Use less strict versions for Ubuntu packages (fixes issue #10)
+- Use less strict versions for Ubuntu packages (fixes #10)
 - Changed git-flow URL (we are using "git-flow (AVH Edition)")
 - Upgraded glances to 2.8.2
 - Upgraded thefuck to 3.14
