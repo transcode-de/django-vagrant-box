@@ -93,7 +93,8 @@ Other
 
 .. class:: compact
 
-    - An empty "django" Python virtual environment, automatically activated after login
+    - An empty "django" virtual Python environment, automatically activated after login
+    - A ``recreate`` command to recreate the current virtual Python environment (useful to uninstall all Python packages)
     - `Glances <https://nicolargo.github.io/glances/>`_ 2.7.1, to monitor the box itself
     - `wkhtmltopdf <http://wkhtmltopdf.org/>`_ 0.12.2.4 with xvfb 1.18.4
     - `lxml <https://github.com/lxml/lxml>`_ dependencies

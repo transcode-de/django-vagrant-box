@@ -6,5 +6,5 @@ project:
   # Username and group of Vagrant user
   user: vagrant
   group: vagrant
-  # Path to directory for all Python virtual environments
+  # Path to directory for all virtual Python environments
   venvs: /home/vagrant/.venvs

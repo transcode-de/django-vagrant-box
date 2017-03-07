@@ -10,6 +10,7 @@ Unreleased
 Added
 -----
 
+- Added recreate command to recreate the current virtual Python environment
 - Added pgAdmin4
 - Added ranger console file manager (fixes issue #11)
 - Added timedatectl status to .bashrc

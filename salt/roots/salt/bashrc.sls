@@ -19,6 +19,13 @@ Extend .bashrc:
         export LANGUAGE=en_US.UTF-8
         export LC_ALL=en_US.UTF-8
         export PATH="${HOME}/bin:${PATH}"
+        # Recreate the current virtual Python environment
+        function recreate () {
+            VENV_DIR=$VIRTUAL_ENV
+            deactivate
+            /usr/bin/python3 -m venv --clear $VENV_DIR
+            source $VENV_DIR/bin/activate
+        }
         echo
         timedatectl status
     - template: jinja

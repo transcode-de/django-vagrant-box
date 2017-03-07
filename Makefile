@@ -29,7 +29,7 @@ clean: ## Destroy the Vagrant box and delete the re-usable box
 	rm -f $(BOX_PATH)
 	rm -f cleanup.log
 
-clean-venv: ## Delete the Python virtual environment
+clean-venv: ## Delete the virtual Python environment
 	rm -rf $(VENV)
 
 $(BOX_PATH):
