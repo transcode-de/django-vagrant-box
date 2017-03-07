@@ -129,14 +129,17 @@ Configuration
 Installation
 ============
 
-Download `Vagrant 1.8 <https://www.vagrantup.com/downloads.html>`_ and
+Download `Vagrant 1.9 <https://www.vagrantup.com/downloads.html>`_ and
 `VirtualBox 5.0 <https://www.virtualbox.org/>`_ for your operating system and
 architecture, then install both.
 
 Usage
 =====
 
-To create and boot a new Vagrant box, run:
+Creating a new Vagrant box
+--------------------------
+
+To create and boot a new Vagrant box run:
 
 ::
 
@@ -151,6 +154,44 @@ Now connect to the new box:
 
 That's it! Now change your working directory to ``/vagrant`` and start working
 on your Django project!
+
+Updating an existing Vagrant box
+--------------------------------
+
+To check for updates for your existing transcode/django Vagrant box run:
+
+::
+
+    $ vagrant box outdated
+
+This command will show you if a new version of the box is available. (An update
+check is also performed every time you run ``vagrant up``.)
+
+If a new version is available, update the box:
+
+::
+
+    $ vagrant destroy -f
+    $ vagrant box update
+
+.. warning::
+
+    This will destroy all data in the Vagrant box! Only the files in
+    ``/vagrant`` will be kept.
+
+After a successful upgrade clean up the old Vagrant boxes:
+
+::
+
+    $ vagrant box prune
+
+Then boot and connect to the new Vagrant box:
+
+::
+
+    $ vagrant up
+    $ vagrant ssh
+
 
 Building and uploading a Vagrant box
 ====================================

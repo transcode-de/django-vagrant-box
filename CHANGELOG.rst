@@ -19,6 +19,7 @@ Added
 Changed
 -------
 
+- Upgraded to Vagrant 1.9 (fixes issue #25)
 - Switched to pyup.io for Python requirements upgrades
 - Upgraded ranger to 1.9.0b5
 - Updated copyright for 2017
