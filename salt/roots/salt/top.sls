@@ -12,7 +12,7 @@ base:
     - ranger
     - heroku
     - postgresql
-    - pgadmin
+    - pgadmin4
     - sqlite3
     - glances
     - wkhtmltopdf
