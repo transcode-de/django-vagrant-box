@@ -28,7 +28,8 @@ Programming Languages
 
 .. class:: compact
 
-    - `Python <https://www.python.org/>`_ 3.5.2
+    - `Python <https://www.python.org/>`_ 3.5.2, 3.6.0 and 2.7.12
+    - `pyenv <https://github.com/pyenv/pyenv>`_ 1.0.8
     - `Node.js <https://nodejs.org/en/>`_ 6.10.x (LTS version)
 
 Package Managers

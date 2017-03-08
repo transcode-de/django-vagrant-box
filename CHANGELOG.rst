@@ -10,6 +10,8 @@ Unreleased
 Added
 -----
 
+- Enabled pip completion
+- Added pyenv
 - Added heroku CLI (fixes #7)
 - Added recreate command to recreate the current virtual Python environment
 - Added pgAdmin4
