@@ -20,6 +20,7 @@ Added
 Changed
 -------
 
+- Upgraded yarn to 0.21.3
 - Upgraded Node.js to 6.10
 - Upgraded libpq-dev to 9.5.6
 - Upgraded VirtualBox to 5.1

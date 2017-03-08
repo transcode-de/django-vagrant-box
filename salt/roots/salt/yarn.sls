@@ -12,6 +12,6 @@ Add yarn repository:
 Install yarn:
   pkg.installed:
     - pkgs:
-      - yarn: 0.20.3*
+      - yarn: 0.21.3*
     - require:
       - Install Node.js and npm

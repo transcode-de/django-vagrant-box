@@ -38,7 +38,7 @@ Package Managers
 
     - `npm <https://www.npmjs.com/>`_ 3.10.x
     - `pip <https://pip.pypa.io/>`_ 8.1.1
-    - `yarn <https://yarnpkg.com/>`_ 0.20.3
+    - `yarn <https://yarnpkg.com/>`_ 0.21.3
 
 Databases
 ---------
