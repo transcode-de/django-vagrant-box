@@ -130,8 +130,8 @@ Configuration
 Installation
 ============
 
-Download `Vagrant 1.9 <https://www.vagrantup.com/downloads.html>`_ and
-`VirtualBox 5.0 <https://www.virtualbox.org/>`_ for your operating system and
+Download `Vagrant 1.9.x <https://www.vagrantup.com/downloads.html>`_ and
+`VirtualBox 5.1.x <https://www.virtualbox.org/>`_ for your operating system and
 architecture, then install both.
 
 Usage
@@ -144,7 +144,7 @@ To create and boot a new Vagrant box run:
 
 ::
 
-    $ vagrant init -m transcode/django
+    $ vagrant init --minimal transcode/django
     $ vagrant up
 
 Now connect to the new box:
@@ -172,7 +172,7 @@ If a new version is available, update the box:
 
 ::
 
-    $ vagrant destroy -f
+    $ vagrant destroy --force
     $ vagrant box update
 
 .. warning::

@@ -25,7 +25,7 @@ $(VAGRANT_ID_PATH):
 build: $(VAGRANT_ID_PATH) ## Create, configure and provision the Vagrant box
 
 clean: ## Destroy the Vagrant box and delete the re-usable box
-	vagrant destroy -f
+	vagrant destroy --force
 	rm -f $(BOX_PATH)
 	rm -f cleanup.log
 

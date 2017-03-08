@@ -2,7 +2,7 @@ Vagrant.require_version ">= 1.9"
 
 Vagrant.configure(2) do |config|
   config.vm.box = "boxcutter/ubuntu1604"
-  config.vm.box_version = "2.0.20"
+  config.vm.box_version = "~> 2.0.26"
 
   # Enable agent forwarding over SSH connections
   config.ssh.forward_agent = true

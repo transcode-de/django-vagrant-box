@@ -20,6 +20,7 @@ Added
 Changed
 -------
 
+- Upgraded VirtualBox to 5.1
 - Upgraded to Vagrant 1.9 (fixes #25)
 - Switched to pyup.io for Python requirements upgrades
 - Upgraded ranger to 1.9.0b5
