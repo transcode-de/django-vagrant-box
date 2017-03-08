@@ -10,6 +10,7 @@ Unreleased
 Added
 -----
 
+- Added nvm
 - Enabled pip completion
 - Added pyenv
 - Added heroku CLI (fixes #7)
