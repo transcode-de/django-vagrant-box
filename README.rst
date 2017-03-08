@@ -45,7 +45,7 @@ Databases
 
 .. class:: compact
 
-    - `PostgreSQL <http://www.postgresql.org/>`_ 9.5 and libpq-dev 9.5.5
+    - `PostgreSQL <http://www.postgresql.org/>`_ 9.5 and libpq-dev 9.5.6
     - `SQLite <https://www.sqlite.org/>`_ 3.11.0
 
 Development Tools

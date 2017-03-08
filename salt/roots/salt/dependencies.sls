@@ -9,7 +9,7 @@ Install general dependencies:
 Install PostgreSQL dependencies:
   pkg.installed:
     - pkgs:
-      - libpq-dev: 9.5.5*
+      - libpq-dev: 9.5.6*
 
 Install lxml dependencies:
   pkg.installed:
