@@ -29,7 +29,7 @@ Programming Languages
 .. class:: compact
 
     - `Python <https://www.python.org/>`_ 3.5.2
-    - `Node.js <https://nodejs.org/en/>`_ 6.9.x (LTS version)
+    - `Node.js <https://nodejs.org/en/>`_ 6.10.x (LTS version)
 
 Package Managers
 ----------------
