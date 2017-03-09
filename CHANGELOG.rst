@@ -23,18 +23,17 @@ Added
 Changed
 -------
 
+- Upgraded glances to 2.8.4
 - Upgraded yarn to 0.21.3
 - Upgraded Node.js to 6.10
 - Upgraded libpq-dev to 9.5.6
 - Upgraded VirtualBox to 5.1
 - Upgraded to Vagrant 1.9 (fixes #25)
 - Switched to pyup.io for Python requirements upgrades
-- Upgraded ranger to 1.9.0b5
 - Updated copyright for 2017
 - Upgraded yarn to 0.20.3
 - Use less strict versions for Ubuntu packages (fixes #10)
 - Changed git-flow URL (we are using "git-flow (AVH Edition)")
-- Upgraded glances to 2.8.2
 - Upgraded thefuck to 3.14
 
 Fixed
