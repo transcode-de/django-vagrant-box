@@ -130,8 +130,8 @@ Configuration
 - APT is configured to use German Ubuntu mirror servers
 - An environment variable ``ENV=vagrant`` has been set, to be used in scripts etc.
 - Port 8000 on the guest will be forwarded to the same port on the host (used for the Django development web server)
-- Port 5050 on the guest will be forwarded to the same port on the host (used for pgAdmin4)
-- Port 61208 on the guest will be forwarded to the same port on the host (used for the Glances web server)
+- Port 5050 on the guest will be forwarded to the same port on the host (used for pgAdmin4, needs to be started manually)
+- Port 61208 on the guest will be forwarded to the same port on the host (used for the Glances web server, runs in the background as a service)
 - Auto correction for port forwarding is enabled, so port numbers can be different - use the ``vagrant port`` command to display them
 - Timezone is set to Europe/Berlin
 
