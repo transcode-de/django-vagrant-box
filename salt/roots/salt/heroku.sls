@@ -9,5 +9,5 @@ Add heroku repository:
 Install heroku CLI:
   pkg.installed:
     - pkgs:
-      - software-properties-common
+      - software-properties-common: 0.96.20*
       - heroku: 5.6.29*
