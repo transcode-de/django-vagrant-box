@@ -18,7 +18,7 @@ Install PostgreSQL:
 Create PostgreSQL user:
   postgres_user.present:
     - name: {{ pillar['db']['username'] }}
-    - createdb: True
+    - superuser: True
     - password: {{ pillar['db']['password'] }}
     - user: postgres
     - require:
