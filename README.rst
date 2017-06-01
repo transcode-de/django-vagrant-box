@@ -125,7 +125,7 @@ Configuration
 - During the first login you will be asked for your full name and email address to be used for your Git commits
 - Git has already been configured with ``push.default = simple``
 - A PostgreSQL database named "django" has already been created for you
-- User and password for the PostgreSQL database are both ``django``
+- User and password for the PostgreSQL database are both ``django`` (user is superuser)
 - PostgreSQL database name and user are also available as environment variables ``DB_NAME`` and ``DB_USER``
 - APT is configured to use German Ubuntu mirror servers
 - An environment variable ``ENV=vagrant`` has been set, to be used in scripts etc.

@@ -23,6 +23,7 @@ Added
 Changed
 -------
 
+- PostgreSQL user is now superuser
 - Upgraded glances to 2.8.4
 - Upgraded yarn to 0.21.3
 - Upgraded Node.js to 6.10
