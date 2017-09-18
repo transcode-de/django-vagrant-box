@@ -7,4 +7,4 @@ pyasn1==0.3.5
 python-dateutil==2.6.1
 rsa==3.4.2
 s3transfer==0.1.11
-six==1.10.0
+six==1.11.0
