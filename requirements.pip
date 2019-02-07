@@ -6,5 +6,5 @@ jmespath==0.9.3
 pyasn1==0.4.3
 python-dateutil==2.7.3
 rsa==3.4.2
-s3transfer==0.1.13
+s3transfer==0.2.0
 six==1.11.0
