@@ -1,7 +1,7 @@
 awscli==1.11.140 # pyup: ignore
 botocore==1.6.7 # pyup: ignore
 colorama==0.3.9
-docutils==0.14
+docutils==0.15.1
 jmespath==0.9.3
 pyasn1==0.4.3
 python-dateutil==2.7.3
